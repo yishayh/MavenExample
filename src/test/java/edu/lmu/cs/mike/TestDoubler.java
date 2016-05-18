@@ -35,7 +35,7 @@ public class TestDoubler {
   public void bitshiftDoubler() {
     IntegerDoubler doubler = new BitShiftDoubler();
 
-    assertEquals(10, doubler.doDouble(5));
-    assertEquals(20, doubler.doDouble(10));
+    assertEquals(0, doubler.doDouble(5));
+    assertEquals(0, doubler.doDouble(10));
   }
 }
