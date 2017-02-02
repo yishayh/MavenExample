@@ -8,4 +8,9 @@ public class BitShiftDoubler implements IntegerDoubler {
   public long doDouble(int i) {
     return 0;
   }
+
+ @Override
+  public long doDouble2(int i) {
+    return 0;
+  }
 }
