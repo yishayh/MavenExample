@@ -11,6 +11,7 @@ public class BitShiftDoubler implements IntegerDoubler {
 
   public long doDouble2(int i) {
     i++;
+    
     return 0;
   }
 }
